@@ -1,0 +1,49 @@
+set nocompatible               " Disable vi compatibility
+filetype plugin indent on      " Enable filetype detection and plugins
+syntax on                      " Enable syntax highlighting
+set encoding=utf-8             " Use UTF-8 encoding
+set hidden                     " Allow buffer switching without saving
+
+
+set number                     " Show line numbers
+set relativenumber             " Relative line numbers like Neovim
+set showcmd                    " Show incomplete commands
+set showmode                   " Show current mode
+set wildmenu                   " Better command completion
+set laststatus=2               " Always show status line
+set termguicolors              " Enable 24-bit colors
+
+
+set expandtab                  " Use spaces instead of tabs
+set shiftwidth=4               " Number of spaces per indentation
+set tabstop=4                  " Number of spaces that a tab counts for
+set smartindent                " Smart autoindenting
+set wrap                       " Wrap long lines
+set linebreak                  " Wrap lines at word boundaries
+set ignorecase                 " Case-insensitive search
+set smartcase                  " Unless uppercase is used
+set incsearch                  " Incremental search
+set hlsearch                   " Highlight search results
+set backspace=indent,eol,start
+
+
+set mouse=a                     " Enable mouse in all modes
+
+
+set updatetime=300              " Faster completion
+set timeoutlen=500              " Shorter timeout for mapped sequences
+
+
+
+
+" colorscheme gruvbox
+set background=dark
+
+
+set termguicolors
+
+colorscheme catppuccin_mocha
+
+
+command W w
+command Q q
